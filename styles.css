@@ -29,7 +29,7 @@ p + p { margin-top: 16px; }
 h2 { margin-bottom: 20px; font-size: 20px; font-weight: 500; line-height: 1.4; }
 .highlight { display: grid; grid-template-columns: 240px minmax(0, 1fr); align-items: center; gap: 24px; }
 .highlight + .highlight { margin-top: 28px; }
-.highlight-preview { display: block; width: 100%; aspect-ratio: 16 / 9; object-fit: cover; background: #e4dfd8; border-radius: 4px; }
+.highlight-preview { display: block; width: 100%; height: auto; aspect-ratio: 16 / 9; object-fit: cover; background: #e4dfd8; border-radius: 4px; }
 h3 { margin-bottom: 6px; font-size: 18px; font-weight: 500; line-height: 1.5; }
 .highlight p { color: var(--muted); font-size: 15px; line-height: 1.6; }
 .skip-link { position: absolute; top: 12px; left: 12px; padding: 8px 12px; background: var(--paper); transform: translateY(-180%); }

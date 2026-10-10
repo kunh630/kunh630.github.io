@@ -10,14 +10,15 @@ A small, responsive website built with HTML and CSS. No framework, package insta
 - `styles.css`: colors, typography, spacing, and mobile layout.
 - `assets/kun-huang.jpg`: the Slack profile photo selected by Kun. Update the image’s alt text and dimensions in `index.html` when replacing it.
 
-The biography, social links, and career highlights were supplied by Kun. The preview videos and poster images match the cards on https://www.dyna.co/research. Poster images are stored locally; videos stream from their original Dyna URLs and use native playback controls. No autoplay is used.
+The biography, social links, and career highlights were supplied by Kun. The Dyna preview videos and poster images match the cards on https://www.dyna.co/research. Poster images are stored locally; videos stream from their original Dyna URLs. Videos autoplay muted, loop, and retain native playback controls. The CoRL preview uses the original, looping door-locking GIF from the project’s embedded supplemental slides.
 
 Preview sources:
 - Dyna-2.1: `/assets/videos/whole-employee-card.mp4` and `/assets/videos/whole-employee-card-poster.jpg`
-- Dyna-2: `/assets/videos/dyna2-mosaic-ego.mp4` and `/assets/research/dyna-2-mosaic-card.jpg`
 - Dyna-1: `/assets/research/dyna-1-model-card.mp4` and `/assets/research/dyna-1-model-card.png`
 
-All preview paths above are on https://www.dyna.co. Dyna retains ownership of its media.
+The Dyna preview paths above are on https://www.dyna.co. Dyna retains ownership of its media.
+
+The CoRL door-locking GIF is stored as `assets/door-locking.gif`. Source: https://sites.google.com/view/lirf-corl-2022/ → embedded “Copy of IRF_Supp_Slides” presentation → slide 1, “Door Locking”. The original animation is preserved without cropping or re-encoding.
 
 ## Preview locally
 
