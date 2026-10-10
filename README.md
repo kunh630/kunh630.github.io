@@ -6,11 +6,18 @@ A small, responsive website built with HTML and CSS. No framework, package insta
 
 ## Edit
 
-- `index.html`: introduction, links, and selected projects. Copy an `<article class="project">` block to add a project; use a separate section for publications when ready.
+- `index.html`: introduction, social links, and Career Highlights. Copy an `<article class="highlight">` block to add another highlight.
 - `styles.css`: colors, typography, spacing, and mobile layout.
-- `assets/portrait.jpg`: currently the public GitHub avatar. Replace it with your preferred photo and update the image’s alt text and dimensions in `index.html`.
+- `assets/kun-huang.jpg`: the Slack profile photo selected by Kun. Update the image’s alt text and dimensions in `index.html` when replacing it.
 
-The biography and social links were supplied by Kun. The initial project list and avatar come from the public GitHub profile. The projects can be replaced with current work and publications; a preferred portrait and CV can be added later.
+The biography, social links, and career highlights were supplied by Kun. The preview videos and poster images match the cards on https://www.dyna.co/research. Poster images are stored locally; videos stream from their original Dyna URLs and use native playback controls. No autoplay is used.
+
+Preview sources:
+- Dyna-2.1: `/assets/videos/whole-employee-card.mp4` and `/assets/videos/whole-employee-card-poster.jpg`
+- Dyna-2: `/assets/videos/dyna2-mosaic-ego.mp4` and `/assets/research/dyna-2-mosaic-card.jpg`
+- Dyna-1: `/assets/research/dyna-1-model-card.mp4` and `/assets/research/dyna-1-model-card.png`
+
+All preview paths above are on https://www.dyna.co. Dyna retains ownership of its media.
 
 ## Preview locally
 
